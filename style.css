@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: sans pro, sans-serif;
+}
+
+header {
+  padding: 18px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 1px 1px #d0d4d9;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 40px;
+  width: 40px;
+  margin-right: 8px;
+}
+
+.logo p {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.try {
+  color: #0061ff;
+  border: 1px solid #0061ff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  background: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.download {
+  color: #0061ff;
+  font-size: 14px;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+}
+
+.main .account {
+  width: 350px;
+}
+
+.main .account .create {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.main .account .create p {
+  font-size: 18px;
+}
+
+.main .account .create div {
+  font-size: 14px;
+}
+
+.main img {
+  width: 350px;
+  margin-right: 90px;
+}
+
+.main .inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.main .inputs input {
+  padding: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  font-size: 16px;
+  margin: 12px 0;
+}
+
+.agree {
+  display: flex;
+  align-items: center;
+}
+
+.agree label {
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+.agree span {
+  color: #0061ff;
+}
+
+.create_account {
+  color: white;
+  font-weight: 200;
+  background-color: #0070e0;
+  font-size: 11px;
+}
+
+.logo, .try, .create_account, .agree label, .agree #cb {
+  cursor: pointer;
+}
+
+.download:hover, .create div a:hover, .agree label span:hover {
+  text-decoration: underline;
+}
+
+.create_account:hover {
+  background-color: #2989e8;
+}
+
+.try:hover {
+  color: #1b60d0;
+  border-color: #1b60d0;
+}
